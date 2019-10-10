@@ -11,7 +11,7 @@ public class Fluxo {
         System.out.println("Fim do main");
     }
 
-    
+
     private static void metodo1() {
         System.out.println("Ini do metodo1");
         metodo2();
