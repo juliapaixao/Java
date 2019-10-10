@@ -2,6 +2,9 @@ public class TesteContas {
 
     public static void main(String[] args) {
 
+        int a = 3;
+        int b = a/0;
+
         ContaCorrente cc = new ContaCorrente(6148, 8976465);
         cc.deposita(1500);
         System.out.println("Saldo CC: " + cc.getSaldo());
