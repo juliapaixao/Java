@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4346c88c-90d7-45f5-bae0-c02e2315e79d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FluxoComErro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-pilha/Fluxo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-pilha/Fluxo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Fluxo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fluxo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MinhaExcecao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinhaExcecao.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +31,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -42,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FluxoComErro">
     <configuration name="Fluxo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fluxo" />
       <module name="java-pilha" />
@@ -50,8 +56,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FluxoComErro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FluxoComErro" />
+      <module name="java-pilha" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FluxoComErro" />
         <item itemvalue="Application.Fluxo" />
       </list>
     </recent_temporary>
@@ -68,7 +82,7 @@
       <updated>1570649119189</updated>
       <workItem from="1570649122872" duration="924000" />
       <workItem from="1570730220895" duration="5512000" />
-      <workItem from="1570810146460" duration="7219000" />
+      <workItem from="1570810146460" duration="10045000" />
     </task>
     <servers />
   </component>
