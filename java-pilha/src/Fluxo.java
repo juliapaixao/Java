@@ -4,7 +4,7 @@ public class Fluxo {
         try {
             metodo1();
         }
-        catch(ArithmeticException | NullPointerException ex) {
+        catch(ArithmeticException | NullPointerException | MinhaExcecao ex) {
             String msg = ex.getMessage();
             System.out.println("Exception: " + msg);
             ex.printStackTrace();
@@ -22,7 +22,7 @@ public class Fluxo {
 
     private static void metodo2() {
         System.out.println("Início do metodo2");
-        throw new ArithmeticException("Ops, algo deu errado :("); // sai brutamente do código throw
+        throw new MinhaExcecao("Ops, algo deu errado!  :("); // sai brutamente do código throw
     }
 
 }

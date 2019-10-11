@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4346c88c-90d7-45f5-bae0-c02e2315e79d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/java-pilha/Conta.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-pilha/Fluxo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-pilha/Fluxo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Fluxo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fluxo.java" afterDir="false" />
@@ -70,7 +68,7 @@
       <updated>1570649119189</updated>
       <workItem from="1570649122872" duration="924000" />
       <workItem from="1570730220895" duration="5512000" />
-      <workItem from="1570810146460" duration="4928000" />
+      <workItem from="1570810146460" duration="7219000" />
     </task>
     <servers />
   </component>
