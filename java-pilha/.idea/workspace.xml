@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4346c88c-90d7-45f5-bae0-c02e2315e79d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/TesteContas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/TesteContas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/TesteContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/TesteContas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-pilha/Conta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-pilha/Fluxo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-pilha/Fluxo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Fluxo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fluxo.java" afterDir="false" />
@@ -70,7 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570649119189</updated>
       <workItem from="1570649122872" duration="924000" />
-      <workItem from="1570730220895" duration="3970000" />
+      <workItem from="1570730220895" duration="5512000" />
+      <workItem from="1570810146460" duration="4928000" />
     </task>
     <servers />
   </component>
@@ -82,7 +82,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
