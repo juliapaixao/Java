@@ -1,5 +1,5 @@
 //classe conta
-// dá para definir os valores dos atribuitos, entretanto, os objetos criados receberão esses valores que foram definidos
+// dá para definir os valores dos atributos, entretanto, os objetos criados receberão esses valores que foram definidos
 public class Conta {
     //atributos da classe Conta
     //normalmente os atributos são privados! raramente são public
