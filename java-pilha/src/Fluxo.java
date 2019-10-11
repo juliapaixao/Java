@@ -4,7 +4,8 @@ public class Fluxo {
         try {
             metodo1();
         }
-        catch(ArithmeticException | NullPointerException | MinhaExcecao ex) {
+        //Usando o Exception no catch pega qualquer exceção
+        catch(Exception ex) {
             String msg = ex.getMessage();
             System.out.println("Exception: " + msg);
             ex.printStackTrace();
