@@ -8,10 +8,10 @@ public class ContaCorrente extends Conta implements Tributavel{
     //para criar o override: ctrl + o
     //Override - serve para sobrescrever o método
     @Override
-    public boolean saca(double valor) {
+    public void saca(double valor) throws SaldoInsuficienteException{
         //saca o valor que o cliente quer mais 20 centavos de taxa de cobrança
         double valorASacar = valor + 0.2;
-        return super.saca(valorASacar);
+        super.saca(valorASacar);
     }
 
     @Override

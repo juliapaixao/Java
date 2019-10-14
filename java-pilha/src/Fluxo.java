@@ -4,7 +4,7 @@ public class Fluxo {
         try {
             metodo1();
         }
-        //Usando o Exception no catch pega qualquer exceção
+        //Usando o "Exception" no catch pega qualquer exceção
         catch(Exception ex) {
             String msg = ex.getMessage();
             System.out.println("Exception: " + msg);

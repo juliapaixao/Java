@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4346c88c-90d7-45f5-bae0-c02e2315e79d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TestaContaComExcecaoChecked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/SaldoInsuficienteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/TesteSaca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/ContaCorrente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/ContaCorrente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/TesteContas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/TesteContas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/ContaCorrente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-pilha/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-pilha/Conta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-pilha/Fluxo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-pilha/Fluxo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-pilha/FluxoComErro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-pilha/FluxoComErro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-pilha/MinhaExcecao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-pilha/MinhaExcecao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Fluxo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fluxo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FluxoComErro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FluxoComErro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinhaExcecao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinhaExcecao.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bytebank-herdado-conta" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -96,7 +95,8 @@
       <updated>1570649119189</updated>
       <workItem from="1570649122872" duration="924000" />
       <workItem from="1570730220895" duration="5512000" />
-      <workItem from="1570810146460" duration="11390000" />
+      <workItem from="1570810146460" duration="12015000" />
+      <workItem from="1571069902771" duration="1295000" />
     </task>
     <servers />
   </component>

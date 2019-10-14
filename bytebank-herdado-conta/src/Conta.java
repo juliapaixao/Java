@@ -17,27 +17,18 @@ public abstract class Conta {
     public abstract void deposita(double valor);
 
 
-    public boolean saca(double valor){
-        if(this.saldo >= valor){
-            this.saldo -= valor;
-            return true;
+    public void saca(double valor) throws SaldoInsuficienteException{
+        if(this.saldo < valor){
+            //Se o valor do saque for maior que o da conta, cria a exceção abaixo:
+            throw new SaldoInsuficienteException("Saldo: " + this.saldo + ", Valor: " + valor);
         }
-        else{
-            return false;
-        }
-
+        this.saldo -= valor;
     }
 
     //exemplo de polimorfismo - o parâmetro é do tipo Conta(tipo genérico) e serve para a conta corrente, conta poupança..
-    public boolean transfere(double valor, Conta destino){
-        if(this.saldo>= valor){
-            this.saldo -= valor;
-            destino.saldo += valor;
-            return true;
-        }
-        else{
-            return false;
-        }
+    public void transfere(double valor, Conta destino) throws SaldoInsuficienteException{
+        this.saca(valor);
+        destino.deposita(valor);
     }
 
 
