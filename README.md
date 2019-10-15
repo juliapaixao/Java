@@ -13,3 +13,12 @@ Javadoc - lista completa:
 @since
 @serial
 @deprecated
+
+
+Como criar um JAR - Java Archive
+
+File -> Project Structure -> Artifacts -> + (mais) -> JAR -> From modules with dependencies
+Na opção Main Class, aponte para a classe “Main” do seu projeto
+Para gerar o jar, Build -> Build Artifacts, selecionar o seu jar e a opcao build.
+O arquivo será gerado na pasta out/artifacts/.
+Para executar: java -jar <nome do seu projeto>
