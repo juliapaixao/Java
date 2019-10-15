@@ -1,4 +1,10 @@
 package br.com.bytebank.banco.modelo;
+//public - visível em qualquer lugar
+//protected - visível para a classe e seus filhos
+//<<package private>> - visísel só dentro do pacote e classe. Ex: double saldo;  -----não utiliza nada na frente do tipo
+//private - visível dentro da classe
+
+
 
 public abstract class Conta {
 
@@ -9,6 +15,12 @@ public abstract class Conta {
     private Cliente titular;
     private static int total;
 
+    /**
+     * "Comentários" de documentação - Javadoc
+     *
+     * @param agencia
+     * @param numero
+     */
 
     public Conta(int agencia, int numero){
         total++;
