@@ -2,10 +2,11 @@ package br.com.bytebank.banco.teste;
 
 import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
+import br.com.bytebank.banco.modelo.SaldoInsuficienteException;
 
 public class TesteContas {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SaldoInsuficienteException {
         //Full Qualified Name - FQN
 
         ContaCorrente cc = new ContaCorrente(6148, 8976465); //tem que colocar o nome do pacote ao qual pertence a ContaCorrente

@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4346c88c-90d7-45f5-bae0-c02e2315e79d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/CalculadorDeImposto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/Conta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/ContaCorrente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/ContaPoupanca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/SaldoInsuficienteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/SeguroDeVida.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/TesteContas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/TesteSaca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/TesteTributaveis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/Tributavel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/CalculadorDeImposto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/Conta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/ContaCorrente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/ContaPoupanca.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/SaldoInsuficienteException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/SeguroDeVida.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/TesteContas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/TesteSaca.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/TesteTributaveis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/Tributavel.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytebank/banco/especial/ContaEspecial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytebank/banco/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytebank/banco/modelo/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytebank/banco/teste/TesteContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytebank/banco/teste/TesteContas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytebank/banco/teste/TesteTributaveis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytebank/banco/teste/TesteTributaveis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
