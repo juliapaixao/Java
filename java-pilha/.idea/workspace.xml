@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="4346c88c-90d7-45f5-bae0-c02e2315e79d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytebank/banco/especial/ContaEspecial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/banco/modelo/CalculadorDeImposto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/banco/modelo/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/banco/modelo/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/banco/modelo/ContaCorrente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/banco/modelo/ContaPoupanca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/banco/modelo/SaldoInsuficienteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/banco/modelo/SeguroDeVida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/banco/modelo/Tributavel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/banco/teste/TesteContas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/banco/teste/TesteSaca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/banco/teste/TesteTributaveis.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytebank/banco/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytebank/banco/modelo/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytebank/banco/teste/TesteContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytebank/banco/teste/TesteContas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytebank/banco/teste/TesteTributaveis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/br/com/bytebank/banco/teste/TesteTributaveis.java" afterDir="false" />
