@@ -1,3 +1,5 @@
+package br.com.bytebank.banco.modelo;
+
 public abstract class Conta {
 
     protected double saldo;
@@ -17,7 +19,7 @@ public abstract class Conta {
     public abstract void deposita(double valor);
 
 
-    public void saca(double valor) throws SaldoInsuficienteException{
+    public void saca(double valor) throws SaldoInsuficienteException {
         if(this.saldo < valor){
             //Se o valor do saque for maior que o da conta, cria a exceção abaixo:
             throw new SaldoInsuficienteException("Saldo: " + this.saldo + ", Valor: " + valor);
@@ -26,7 +28,7 @@ public abstract class Conta {
     }
 
     //exemplo de polimorfismo - o parâmetro é do tipo Conta(tipo genérico) e serve para a conta corrente, conta poupança..
-    public void transfere(double valor, Conta destino) throws SaldoInsuficienteException{
+    public void transfere(double valor, Conta destino) throws SaldoInsuficienteException {
         this.saca(valor);
         destino.deposita(valor);
     }
@@ -57,7 +59,7 @@ public abstract class Conta {
         if (agencia < 0){
             System.out.println("Não pode ser um número abaixo de 0.");
             return;
-    }
+        }
         this.agencia = agencia;
     }
 

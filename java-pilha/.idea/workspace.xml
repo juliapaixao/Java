@@ -2,11 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4346c88c-90d7-45f5-bae0-c02e2315e79d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Conexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TesteConexao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/CalculadorDeImposto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/ContaCorrente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/ContaPoupanca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/SaldoInsuficienteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/SeguroDeVida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/TesteContas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/TesteSaca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/TesteTributaveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/out/production/bytebank-herdado-conta/Tributavel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/CalculadorDeImposto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/ContaCorrente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/ContaPoupanca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/SaldoInsuficienteException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/SeguroDeVida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/TesteContas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/TesteSaca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/TesteTributaveis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/src/Tributavel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-pilha/Fluxo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-pilha/Fluxo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-pilha/FluxoComErro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-pilha/FluxoComErro.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +119,8 @@
       <workItem from="1570649122872" duration="924000" />
       <workItem from="1570730220895" duration="5512000" />
       <workItem from="1570810146460" duration="12015000" />
-      <workItem from="1571069902771" duration="4021000" />
+      <workItem from="1571069902771" duration="4656000" />
+      <workItem from="1571144899009" duration="1265000" />
     </task>
     <servers />
   </component>

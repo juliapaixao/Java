@@ -1,4 +1,6 @@
-public class ContaCorrente extends Conta implements Tributavel{
+package br.com.bytebank.banco.modelo;
+
+public class ContaCorrente extends Conta implements Tributavel {
 
     //construtor
     public ContaCorrente(int agencia, int numero){
@@ -8,7 +10,7 @@ public class ContaCorrente extends Conta implements Tributavel{
     //para criar o override: ctrl + o
     //Override - serve para sobrescrever o método
     @Override
-    public void saca(double valor) throws SaldoInsuficienteException{
+    public void saca(double valor) throws SaldoInsuficienteException {
         //saca o valor que o cliente quer mais 20 centavos de taxa de cobrança
         double valorASacar = valor + 0.2;
         super.saca(valorASacar);
