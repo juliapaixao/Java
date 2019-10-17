@@ -1,45 +1,34 @@
 package br.com.bytebank.banco.teste;
 
-import br.com.bytebank.banco.modelo.Cliente;
-import br.com.bytebank.banco.modelo.Conta;
-import br.com.bytebank.banco.modelo.ContaCorrente;
-import br.com.bytebank.banco.modelo.ContaPoupanca;
-
 public class Teste {
 
+    //Array []
     public static void main(String[] args) {
 
-        System.out.println();
-        System.out.println("hello world");
-        System.out.println(123);
-        System.out.println(true);
-        System.out.println(1+2);
+        int idades [] = new int[5]; //Array do tipo int com nome idades, que contém 5 elementos com valor padrão, que é 0
 
-        ContaCorrente cc = new ContaCorrente(12,23);
-        ContaPoupanca cp = new ContaPoupanca(45, 56);
-        Cliente cliente = new Cliente();
+//        idades[0] = 22;
+//        idades[1] = 36;
+//        idades[2] = 35;
+//        idades[3] = 50;
+//
+//        int idade = idades[1];
+//        int idade1 = idades[3];
+//        System.out.println(idade);
+//        System.out.println(idade1);
+//
+//        int tamanho = idades.length;
+//        System.out.println("Tamanho do array: " + tamanho);
 
-        System.out.println(cc.toString());
-        System.out.println(cp);
+        //Criando laço com array
+        for(int i = 0; i < idades.length; i++){
+            idades[i] = i * i;
+        }
 
-        println();
-        //println(cliente);
+        for(int i = 0; i < idades.length; i++){
+            System.out.println(idades[i]);
+        }
+
+
     }
-
-    static void println(){
-    }
-
-    static void println(int a){
-    }
-
-    static void println(boolean valor){
-    }
-
-    //a classe Object pertence ao pacote java.lang - todas as classses herdam dela!
-    //É a classe mais genérica
-    //Polimorfismo
-    static void println(Object referencia){
-    }
-
-
 }
