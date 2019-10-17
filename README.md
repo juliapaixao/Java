@@ -22,3 +22,20 @@ Na opção Main Class, aponte para a classe “Main” do seu projeto
 Para gerar o jar, Build -> Build Artifacts, selecionar o seu jar e a opcao build.
 O arquivo será gerado na pasta out/artifacts/.
 Para executar: java -jar <nome do seu projeto>
+
+
+
+
+
+System.out.prinlt();
+
+O que é? Qual a visibilidade? Acesso?
+
+System 
+ - classe, java.lang, acesso público (public)
+
+out
+ - atributo, acesso publico, referencia, static
+
+println
+ - metodo (pq tem parenteses), acesso publico, não static, sobrecarga, não joga excecoes do tipo checked
