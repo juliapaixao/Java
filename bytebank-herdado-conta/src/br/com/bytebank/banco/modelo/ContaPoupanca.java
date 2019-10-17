@@ -10,4 +10,9 @@ public class ContaPoupanca extends Conta {
     public void deposita(double valor) {
 
     }
+
+    @Override
+    public String toString() {
+        return "ContaPoupança - n°: " + super.getNumero() +"    |    agência: " + super.getAgencia();
+    }
 }
