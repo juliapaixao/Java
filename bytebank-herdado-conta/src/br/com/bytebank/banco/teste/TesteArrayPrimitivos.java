@@ -1,11 +1,11 @@
 package br.com.bytebank.banco.teste;
 
-public class Teste {
+public class TesteArrayPrimitivos {
 
     //Array []
     public static void main(String[] args) {
 
-        int idades [] = new int[5]; //Array do tipo int com nome idades, que contém 5 elementos com valor padrão, que é 0
+        int[] idades  = new int[5]; //Array do tipo int com nome idades, que contém 5 elementos com valor padrão, que é 0
 
 //        idades[0] = 22;
 //        idades[1] = 36;
