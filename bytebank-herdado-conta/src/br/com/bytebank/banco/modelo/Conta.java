@@ -6,7 +6,7 @@ package br.com.bytebank.banco.modelo;
 
 
 
-public abstract class Conta {
+public abstract class Conta extends Object {
 
     protected double saldo;
     //double saldo; //desta forma, ele só fica visível  dentro do pacote
@@ -87,4 +87,20 @@ public abstract class Conta {
     public static int getTotal() {
         return Conta.total;
     }
+
+
+   // @Override
+//    public boolean equals(Object outra) {
+//
+//        if(this.agencia != outra.agencia) {
+//            return false;
+//        }
+//
+//        if(this.numero != outra.numero) {
+//            return false;
+//        }
+//
+//        return true;
+//    }
+
 }
