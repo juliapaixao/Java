@@ -15,7 +15,6 @@ public class TesteWrapper {
 
         Integer idadeRef = Integer.valueOf(22); //autoboxing
         System.out.println(idadeRef.doubleValue());
-        int valor = idadeRef.intValue(); //unboxing
 
 
         System.out.println(Integer.MAX_VALUE);
@@ -24,8 +23,9 @@ public class TesteWrapper {
         System.out.println(Integer.SIZE);
         System.out.println(Integer.BYTES);
 
-        String s = args[0];
 
+        int valor = idadeRef.intValue(); //unboxing
+        String s = args[0];
         //Integer numero = Integer.valueOf(s);
         int numero = Integer.parseInt(s);
         System.out.println(numero);
