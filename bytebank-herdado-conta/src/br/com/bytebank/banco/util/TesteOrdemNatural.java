@@ -47,11 +47,11 @@ public class TesteOrdemNatural {
         }
 
         //NumeroDaContaComparator comparator = new NumeroDaContaComparator();
-        TitularDaContaComparator titularComparator = new TitularDaContaComparator();
+        TitularDaContaComparator1 titularComparator = new TitularDaContaComparator1();
         //sort - responsável por ordenar a lista
         lista.sort(titularComparator);
 
-        Collections.sort(lista, new NumeroDaContaComparator());
+        Collections.sort(lista, new NumeroDaContaComparator1());
         //Collections.sort(lista);
         // reverse - altera a ordem da lista
         Collections.reverse(lista);

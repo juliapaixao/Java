@@ -34,8 +34,8 @@ public class TesteOrdenaLista {
             System.out.println(conta);
         }
 
-        NumeroContaComparator comparator = new NumeroContaComparator();
-        lista.sort(comparator);
+//        NumeroContaComparator1 comparator = new NumeroContaComparator1();
+//        lista.sort(comparator);
 
         System.out.println("--------------------------------------------");
 
