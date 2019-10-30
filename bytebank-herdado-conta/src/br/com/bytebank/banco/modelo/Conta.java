@@ -5,14 +5,15 @@ package br.com.bytebank.banco.modelo;
 //private - visível dentro da classe
 
 
+import java.io.Serializable;
 
-public abstract class Conta extends Object {
+public abstract class Conta extends Object implements  Serializable {
 
     protected double saldo;
     //double saldo; //desta forma, ele só fica visível  dentro do pacote
     private int agencia;
     private int numero;
-    private Cliente titular;
+    private transient Cliente titular; //transient - não faz parte da serialização
     private static int total;
 
     /**

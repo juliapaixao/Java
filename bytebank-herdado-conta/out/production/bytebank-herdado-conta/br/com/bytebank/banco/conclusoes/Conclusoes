@@ -1,0 +1,42 @@
+ ******************************* ANOTAÇÕES *******************************
+
+ARRAY
+  Guarda vários valores num lugar só
+  Ex:
+
+  Array de primitivos:
+    int[] numeros = new int[2];
+
+    numeros[0] = 5;
+    numeros[1] = 10;
+
+    System.out.println(numeros[0]);
+    System.out.println(numeros.length);
+
+
+
+  Array de referências:
+     Conta[] referencias = new Conta[6];
+
+     referencias[0] = new ContaCorrente(11,44);
+     referencias[1] = new ContaCorrente(33,88);
+
+     Conta ref = referencias[0];
+     System.out.println(ref.getNumero());
+
+     System.out.println(numeros.length);
+
+
+LISTAS E WRAPPERS
+  Ex:
+  List<Integer> lista = new ArrayList<>();
+
+  lista.add(5);
+  lista.add(55);
+
+  System.out.println("Tamanho: " + lista.size());
+
+  ------------------------------
+  sort - ordena lista
+
+

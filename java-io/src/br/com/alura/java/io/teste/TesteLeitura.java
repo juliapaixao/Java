@@ -10,7 +10,7 @@ public class TesteLeitura {
         //Fluxo de entrada com arquivo (em binário)
         FileInputStream fis = new FileInputStream("vasco.txt");
         //Transforma bits e bytes em caracter
-        InputStreamReader isr = new InputStreamReader(fis);
+        InputStreamReader isr = new InputStreamReader(fis, "UTF-8");
         //Lê as linhas inteiras do arquivo de texto
         BufferedReader br = new BufferedReader(isr);
 

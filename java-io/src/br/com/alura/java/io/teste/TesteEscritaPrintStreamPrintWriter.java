@@ -15,10 +15,10 @@ public class TesteEscritaPrintStreamPrintWriter {
 
         // BufferedWriter bw = new BufferedWriter(new FileWriter("vasco3.txt"));
 
-        PrintStream ps = new PrintStream("vasco4.txt");
+        PrintStream ps = new PrintStream("vasco4.txt", "UTF-8");
 
-        ps.println("Vou torcer pro Vasco ser campeao,");
-        ps.println("Sao Januario, meu caldeirao");
+        ps.println("Vou torcer pro Vasco ser campeão,");
+        ps.println("São Januário, meu caldeirão");
 
         ps.close();
 
